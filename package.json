@@ -1,0 +1,19 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Playing around with Advent of Code",
+  "main": "index.js",
+  "repository": "https://github.com/adamsanderson/adventofcode",
+  "author": "Adam Sanderson <adams@textio.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "ts": "yarn ts-node -T",
+    "ts-check": "yarn ts-node"
+  }
+}
